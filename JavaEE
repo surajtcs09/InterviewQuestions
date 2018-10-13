@@ -1,0 +1,12 @@
+1. Why stateless web tier is preferred over statful? 
+Answer:
+Stateless web tier means you don't store any web data application data in web-server memory or file system. 
+Keeping your web tier stateless enables you to both provide a better customer experience via better performance and 
+your applications can scale well. If the web tier is stateless and it sits behind a load balancer, 
+you can quickly respond to changes in application traffic by dynamically adding or removing servers. 
+In the cloud environment you only pay for server resources that you consume.
+
+
+
+
+Source: https://www.java-success.com/web-basics-interview-questions-and-answers/
