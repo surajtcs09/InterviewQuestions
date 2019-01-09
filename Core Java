@@ -1,0 +1,14 @@
+1. What is resource in Java? 
+Answer: 
+Resources in Java are files, streams, sockets and database connection. 
+
+A resource is something that has limited amount. In Java, resource acquire system resources for their operations. 
+
+And, the system resources gets exhausted at certain point because they have an upper-bound limit for resources. 
+
+
+For Example: File, one can write to it and and then close the resource. 
+File class acquire the file resource and while the file is open, one can't delete it in windows, and in Linux one can delete it but it doesn't free any space. 
+
+
+Source: https://stackoverflow.com/questions/24854927/what-is-a-resource-in-javawhy-we-have-to-close-it-after-it-is-used
